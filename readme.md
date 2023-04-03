@@ -6,8 +6,7 @@ CampusConvo is a messaging app designed specifically for college students. The a
 
 
 - Bajrang
-- 
-- 
+- Tanishka
 
 ## Tech Stack
 
