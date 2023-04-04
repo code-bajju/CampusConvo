@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 
-class SplashScreen extends StatelessWidget {
+class SplashscreenWidget extends StatefulWidget {
+  @override
+  _SplashscreenWidgetState createState() => _SplashscreenWidgetState();
+}
+
+class _SplashscreenWidgetState extends State<SplashscreenWidget> {
   @override
   Widget build(BuildContext context) {
-    // Figma Flutter Generator SplashScreen - FRAME
+    // Figma Flutter Generator SplashscreenWidget - FRAME
+
     return Container(
         width: 412,
         height: 846,
@@ -22,6 +28,7 @@ class SplashScreen extends StatelessWidget {
                         image: AssetImage('assets/images/1.png'),
                         fit: BoxFit.fitWidth),
                   ))),
+          // Positioned(top: 0, left: 0, child: Align),
           Positioned(
               top: 405,
               left: 108,
