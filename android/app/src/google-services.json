@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816774688853",
+    "project_id": "campus-convo",
+    "storage_bucket": "campus-convo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816774688853:android:062993ce2b81650af964dc",
+        "android_client_info": {
+          "package_name": "com.example.campus_convo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816774688853-uoi8l0c3bbhf9p5bt1rel3gjcia7sqrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5h4gMaz944gg21Ixr6TT036zjVFuITEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816774688853-uoi8l0c3bbhf9p5bt1rel3gjcia7sqrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
