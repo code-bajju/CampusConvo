@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
 
-class SplashscreenWidget extends StatefulWidget {
-  @override
-  _SplashscreenWidgetState createState() => _SplashscreenWidgetState();
-}
-
-class _SplashscreenWidgetState extends State<SplashscreenWidget> {
+class SplashscreenWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Figma Flutter Generator SplashscreenWidget - FRAME
-
     return Container(
         width: 412,
         height: 846,
@@ -25,10 +19,10 @@ class _SplashscreenWidgetState extends State<SplashscreenWidget> {
                   height: 846,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/images/1.png'),
+                        image: AssetImage('assets/1.png'),
                         fit: BoxFit.fitWidth),
                   ))),
-          // Positioned(top: 0, left: 0, child: Align),
+          // Positioned(top: 0, left: 0, child: null),
           Positioned(
               top: 405,
               left: 108,
@@ -37,11 +31,11 @@ class _SplashscreenWidgetState extends State<SplashscreenWidget> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: Color.fromRGBO(255, 255, 255, 1),
-                    fontFamily: 'Roboto',
+                    fontFamily: 'RobotoMono',
                     fontSize: 30,
                     letterSpacing:
                         0 /*percentages not used in flutter. defaulting to zero*/,
-                    fontWeight: FontWeight.normal,
+                    fontWeight: FontWeight.bold,
                     height: 1),
               )),
         ]));
